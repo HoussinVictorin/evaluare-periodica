@@ -1,8 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Orar USARB</title>
+        <link rel="shortcut icon" href="imagine/logo.png" type="image/x-icon">
     </head>
     <body>
+        <img class="background" src="imagine/usrb.png" alt="nu sa incarcat imaginea">
         <div class="all">
             <div class="left">
                 <div class="first">
@@ -10,13 +14,13 @@
                 </div>
                 <div class="second">
                     <div class="grupe">
-                        <h3>Grupe</h3>
+                        <button class="butgupa">Grupe</button>
                     </div>
                     <div class="prof">
-                        <h3>Profesori</h3>
+                        <button class="butgupa">Profesori</button>
                     </div>
                     <div class="aule">
-                        <h3>Aule</h3>
+                        <button class="butgupa">Aule</button>
                     </div>
                 </div>
                 <div class="fignea">
@@ -24,18 +28,39 @@
                         <h3>Regim pentru student</h3>
                     </div>
                     <div class="figneax2">
-
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider">
+                                ::before
+                            </span>
+                        </label>
                     </div>
                 </div>
                 <div class="check">
                     <div class="lupa">
-
+                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search-icon">
+                            <circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle>
+                            <path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path>
+                        </svg>
                     </div>
                     <div class="serch">
                         <input>
                     </div>
+                    <dic class="delete">
+                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close">
+                            <path fill="none" stroke="#000" stroke-width="1.06" d="M16,16 L4,4"></path>
+                            <path fill="none" stroke="#000" stroke-width="1.06" d="M16,4 L4,16"></path>
+                        </svg>
+                    </dic>
                 </div>
-                <div class="grupe">
+                <dic class="toate">
+                    <li tabindex="0" id="133" class="uk-padding-remove-vertical uk-margin-remove-top uk-padding-small groupName">
+                        ::before
+                        "MI21Z"
+                        ::after
+                    </li>
+                </dic>
+                <div class="zilele">
                     <select>
                         <option value="-1">Ziua</option>
                         <option value="0">Luni</option>
@@ -127,13 +152,13 @@
                         <h3>Ma</h3>
                     </div>
                     <div class="c18">
-                        
+                        <h3>P</h3>
                     </div>
                     <div class="c19">
-                       
+                        <h3>S</h3>
                     </div>
                     <div class="c20">
-                        
+                        <h3>L</h3>
                     </div>
                     <div class="c21">
                        
@@ -151,22 +176,22 @@
                         <h3>Mi</h3>
                     </div>
                     <div class="c26">
-                       
+                        <h3>P</h3>
                     </div>
                     <div class="c27">
-                      
+                        <h3>P</h3>
                     </div>
                     <div class="c28">
-                        
+                        <h3>S</h3>
                     </div>
                     <div class="c29">
-                       
+                        <h3>L</h3>
                     </div>
                     <div class="c30">
-                       
+                        <h3>EP</h3>
                     </div>
                     <div class="c31">
-                        
+                     
                     </div>
                     <div class="c32">
                       
@@ -175,16 +200,16 @@
                         <h3>J</h3>
                     </div>
                     <div class="c34">
-                     
+                        <h3>P</h3>
                     </div>
                     <div class="c35">
-                    
+                        <h3>P</h3>
                     </div>
                     <div class="c36">
-                      
+                        <h3>S</h3>
                     </div>
                     <div class="c37">
-                      
+                        <h3>S</h3>
                     </div>
                     <div class="c38">
                         
@@ -199,19 +224,19 @@
                         <h3>V</h3>
                     </div>
                     <div class="c42">
-                       
+                        
                     </div>
                     <div class="c43">
-                       
+                        <h3>S</h3>
                     </div>
                     <div class="c44">
-                       
+                        <h3>L</h3>
                     </div>
                     <div class="c45">
-                       
+                        <h3>S</h3>
                     </div>
                     <div class="c46">
-                       
+                        <h3>S</h3>
                     </div>
                     <div class="c47">
                        
@@ -270,25 +295,130 @@
                     
                 </div>
                 <div class="info">
+                    <li>P-Prelegere</li>
+                    <li>S-Seminar</li>
+                    <li>L-Laborator</li>
+                    <li>PC-Priect de Curs</li>
+                    <li>EP-Evaluare Periodica</li>
+                    <li>C-Consultatie</li>
+                    <li>E-Examinare</li>
+                    <li>R-Reexaminare</li>
+                    <li>SP-Seminar Prealabil</li>
+                    <li>ST-SEminar de Totalizare</li>
 
                 </div>
                 <div class="notlast">
+                    <div class="desc">
+                        <div>
+                            Descarca orar
+                        </div>
+                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="file-pdf">
+                            <rect fill="none" stroke="#000" width="13" height="17" x="3.5" y="1.5"></rect>
+                            <path d="M14.65 11.67c-.48.3-1.37-.19-1.79-.37a4.65 4.65 0 0 1 1.49.06c.35.1.36.28.3.31zm-6.3.06l.43-.79a14.7 14.7 0 0 0 .75-1.64 5.48 5.48 0 0 0 1.25 1.55l.2.15a16.36 16.36 0 0 0-2.63.73zM9.5 5.32c.2 0 .32.5.32.97a1.99 1.99 0 0 1-.23 1.04 5.05 5.05 0 0 1-.17-1.3s0-.71.08-.71zm-3.9 9a4.35 4.35 0 0 1 1.21-1.46l.24-.22a4.35 4.35 0 0 1-1.46 1.68zm9.23-3.3a2.05 2.05 0 0 0-1.32-.3 11.07 11.07 0 0 0-1.58.11 4.09 4.09 0 0 1-.74-.5 5.39 5.39 0 0 1-1.32-2.06 10.37 10.37 0 0 0 .28-2.62 1.83 1.83 0 0 0-.07-.25.57.57 0 0 0-.52-.4H9.4a.59.59 0 0 0-.6.38 6.95 6.95 0 0 0 .37 3.14c-.26.63-1 2.12-1 2.12-.3.58-.57 1.08-.82 1.5l-.8.44A3.11 3.11 0 0 0 5 14.16a.39.39 0 0 0 .15.42l.24.13c1.15.56 2.28-1.74 2.66-2.42a23.1 23.1 0 0 1 3.59-.85 4.56 4.56 0 0 0 2.91.8.5.5 0 0 0 .3-.21 1.1 1.1 0 0 0 .12-.75.84.84 0 0 0-.14-.25z"></path>
+                        </svg>
+                    </div>
+                    <div class="exam">
+                        <div>
+                            Examene
+                        </div>
+                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="print">
+                            <polyline fill="none" stroke="#000" points="4.5 13.5 1.5 13.5 1.5 6.5 18.5 6.5 18.5 13.5 15.5 13.5"></polyline>
+                            <polyline fill="none" stroke="#000" points="15.5 6.5 15.5 2.5 4.5 2.5 4.5 6.5"></polyline>
+                            <rect fill="none" stroke="#000" width="11" height="6" x="4.5" y="11.5"></rect>
+                            <rect width="8" height="1" x="6" y="13"></rect>
+                            <rect width="8" height="1" x="6" y="15"></rect>
 
+                        </svg>
+                    </div>
+                    <div class="plan">
+                        <div>
+                            Planificare
+                        </div>
+                        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="database">
+                            <ellipse fill="none" stroke="#000" cx="10" cy="4.64" rx="7.5" ry="3.14"></ellipse>
+                            <path fill="none" stroke="#000" d="M17.5,11.25 C17.5,12.99 14.14,14.39 10,14.39 C5.86,14.39 2.5,12.98 2.5,11.25"></path>
+                            <path fill="none" stroke="#000" d="M17.49,4.64 L17.5,14.36 C17.5,16.1 14.14,17.5 10,17.5 C5.86,17.5 2.5,16.09 2.5,14.36 L2.5,4.64"></path>
+                        </svg>
+                    </div>
                 </div>
                 <div class="last">
-
+                    <h3>Serviciul este inactiv între ore 23:00 și 3:00</h3>
                 </div>
             </div>
             <div class="right">
                 <dic class="foto">
-
+                    <img src="imagine/logo_usarb.png" alt="nu sa incarcat imaginea">
                 </dic>
                 <div class="text">
-
+                    <h1>UNIVERSITATEA DE STAT „ALECU RUSSO” DIN BĂLȚI</h1>
                 </div>
                 <div class="altgrid">
-
+                    <dic class="a1">
+                        <h3>8:00</h3>
+                        <h3>9:30</h3>
+                    </dic>
+                    <div class="a2">
+                        <h3>Teoria numerelor</h3>
+                        <h3>Prelegeri</h3>
+                        <h3>conf. univ., dr.Zastînceanu L.</h3>
+                        <h3>aud. 236</h3>
+                    </div>
+                    <dic class="a3">
+                        <h3>9:45</h3>
+                        <h3>11:15</h3>
+                    </dic>
+                    <div class="a4">
+                        <h3>Teoria numerelor</h3>
+                        <h3>Prelegeri</h3>
+                        <h3>conf. univ., dr.Zastînceanu L.</h3>
+                        <h3>aud. 236</h3>
+                    </div>
+                    <dic class="a5">
+                        <h3>11:30</h3>
+                        <h3>13:00</h3>
+                    </dic>
+                    <div class="a6">
+                        <h3>Teoria numerelor</h3>
+                        <h3>Seminar</h3>
+                        <h3>asist. univ.Rotari T. V.</h3>
+                        <h3>aud. 234</h3>
+                    </div>
+                    <dic class="a7">
+                        <h3>13:15</h3>
+                        <h3>14:45</h3>
+                    </dic>
+                    <div class="a8">
+                        <h3>Proiectarea paginilor WEB</h3>
+                        <h3>Laborator</h3>
+                        <h3>asist. univ.Chilat S.</h3>
+                        <h3>aud. 141a</h3>
+                    </div>
+                    <dic class="a9">
+                        <h3>15:00</h3>
+                        <h3>16:30</h3>
+                    </dic>
+                    <div class="a10">
+                        <h3>Pedagogia</h3>
+                        <h3>Evaluare periodica</h3>
+                        <h3>conf. univ., drA. Bejan</h3>
+                        <h3>aud. 340</h3>
+                    </div>
+                    <dic class="a11">
+                        <h3>16:45</h3>
+                        <h3>18:15</h3>
+                    </dic>
+                    <div class="a12">
+                    
+                    </div>
+                    <dic class="a13">
+                        <h3>18:30</h3>
+                        <h3>20:00</h3>
+                    </dic>
+                    <div class="a14">
+                    
+                    </div>
                 </div>
             </div>
         </div>
     </body>
+</html>
