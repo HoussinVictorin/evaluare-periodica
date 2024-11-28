@@ -1,0 +1,504 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 220vh;
+    background-image: url('imagine/usrb.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.last{
+    height: 60px;
+}
+.grid{
+    margin-bottom: 20px;
+}
+.lunele{
+    margin-bottom: 20px;
+}
+.zilele{
+    margin-bottom: 20px;
+}
+.toate{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(79, 223, 79);
+}
+h1{
+    color: white;
+}
+.left{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.right{
+    margin-right: 5%;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+}
+.right img{
+   margin-left: 30%;
+}
+ body .all .left .first{
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+ body .all .left .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body .all .left .second .grupe .butgupa{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 40px;
+    width: 100px;
+}
+body .all .left .second .prof .butprof{
+    color: white;
+    height: 40px;
+    width: 130px;
+    background-color: green;
+}
+body .all .left .second .prof  .butprof:hover{
+    background-color: white;
+    color: black;
+}
+body .all .left .second .aule  .butaule:hover{
+    background-color: white;
+    color: black;
+}
+body .all .left .second .aule .butaule{
+    color: white;
+    height: 40px;
+    width: 100px;
+    background-color: green;
+}
+.left h3{
+    color: white;
+}.fignea{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.figneax2{
+    background-color: gray;
+}
+.check{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: white;
+    margin-bottom: 20px;
+   
+}
+.figneax2 input{
+    margin-top: 5px;
+    width: 20px;
+}
+.figneax2::after{
+    background-color: green;
+}
+.serch input{
+    width: 500px
+}
+
+select{
+    width: 100%;
+}
+.grid{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border-color: white;
+    border: 10px;
+}
+.info{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+li{
+    color: white;
+}
+.notlast{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.desc{
+    background-color: green;
+    text-align:center;
+    display: flex;
+    border: 2px;
+    border-color: white;
+
+}
+.exam{
+    background-color: rgb(238, 159, 202);
+    display: flex;
+    justify-content: center;
+}
+.plan{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+.last{
+    background-color: rgb(209, 247, 211);
+}
+.last h3{
+    color: rgb(77, 175, 85);
+}
+.c1{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+    border-color: white;
+}
+.c2{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c3{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c4{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c5{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c6{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c7{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c8{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c9{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c10{
+    background-color: rgb(158, 109, 19);
+    border: 2px;
+    border-color: white;
+}
+.c11{
+    background-color: rgb(126, 216, 126);
+    border: 2px;
+    border-color: white;
+}
+.c12{
+    background-color: rgb(0, 51, 128);
+    border: 2px;
+    border-color: white;
+}
+.c13{
+    background-color: rgb(23, 95, 163);
+    border: 2px;
+    border-color: white;
+}
+.c14{
+    border: 2px;
+    border-color: white;
+}
+.c15{
+    border: 2px;
+    border-color: white;
+}
+.c16{
+    border: 2px;
+    border-color: white;
+}
+.c17{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c18{
+    background-color: rgb(207, 207, 161);
+    border: 2px;
+    border-color: white;
+}
+.c19{
+    background-color: rgb(0, 51, 128);
+    border: 2px;
+    border-color: white;
+}
+.c20{
+    background-color: rgb(241, 168, 190);
+    border: 2px;
+    border-color: white;
+}
+.c21{
+    border: 2px;
+    border-color: white;
+}
+.c22{
+    border: 2px;
+    border-color: white;
+}
+.c23{
+    border: 2px;
+    border-color: white;
+}
+.c24{
+    border: 2px;
+    border-color: white;
+}
+.c25{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c26{
+    background-color: rgb(158, 109, 19);
+    border: 2px;
+    border-color: white;
+}
+.c27{
+    background-color: rgb(158, 109, 19);
+    border: 2px;
+    border-color: white;
+}
+.c28{
+    background-color: rgb(126, 216, 126);
+    border: 2px;
+    border-color: white;
+}
+.c29{
+    background-color: rgb(147, 229, 225);
+    border: 2px;
+    border-color: white;
+}
+.c30{
+    background-color: rgb(207, 207, 161);
+    border: 2px;
+    border-color: white;
+}
+.c31{
+    border: 2px;
+    border-color: white;
+}
+.c32{
+    border: 2px;
+    border-color: white;
+}
+.c33{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c34{
+    background-color: rgb(224, 222, 87);
+    border: 2px;
+    border-color: white;
+}
+.c35{
+    background-color: rgb(224, 222, 87);
+    border: 2px;
+    border-color: white;
+}
+.c36{
+    background-color: rgb(126, 216, 126);
+    border: 2px;
+    border-color: white;
+}
+.c37{
+    background-color: rgb(126, 216, 126);
+    border: 2px;
+    border-color: white;
+}
+.c38{
+    border: 2px;
+    border-color: white;
+}
+.c39{
+    border: 2px;
+    border-color: white;
+}
+.c40{
+    border: 2px;
+    border-color: white;
+}
+.c41{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c42{
+    border: 2px;
+    border-color: white;
+}
+.c43{
+    background-color: rgb(126, 216, 126);
+    border: 2px;
+    border-color: white;
+}
+.c44{
+    background-color: rgb(147, 229, 225);
+    border: 2px;
+    border-color: white;
+}
+.c45{
+     background-color: rgb(126, 216, 126);
+   border: 2px;
+    border-color: white;
+}
+.c46{
+    background-color: rgb(126, 216, 126);
+    border: 2px;
+    border-color: white;
+}
+.c47{
+    border: 2px;
+    border-color: white;
+}
+.c48{
+    border: 2px;
+    border-color: white;
+}
+.c49{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c50{
+    border: 2px;
+    border-color: white;
+}
+.c51{
+    border: 2px;
+    border-color: white;
+}
+.c52{
+    border: 2px;
+    border-color: white;
+}
+.c53{
+    border: 2px;
+    border-color: white;
+}
+.c54{
+    border: 2px;
+    border-color: white;
+}
+.c55{
+    border: 2px;
+    border-color: white;
+}
+.c56{
+    border: 2px;
+    border-color: white;
+}
+.c57{
+    background-color: green;
+    border: 2px;
+    border-color: white;
+}
+.c58{
+    border: 2px;
+    border-color: white;
+}
+.c59{
+    border: 2px;
+    border-color: white;
+}
+.c60{
+    border: 2px;
+    border-color: white;
+}
+.c61{
+    border: 2px;
+    border-color: white;
+}
+.c62{
+    border: 2px;
+    border-color: white;
+}
+.c63{
+    border: 2px;
+    border-color: white;
+}
+.c64{
+    border: 2px;
+    border-color: white;
+}
+.altgrid{
+    text-align: center;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h4{
+    color: grey;
+}
+.altgrid h3{
+    color: white;
+}
+.a1{
+    background-color: green;
+}
+.a2{
+}
+.a3{
+    background-color: green;
+}
+.a4{
+}
+.a5{
+    background-color: green;
+}
+.a6{
+}
+.a7{
+    background-color: green;
+}
+.a8{
+}
+.a9{
+    background-color: green;
+}
+.a10{
+}
+.a11{
+    background-color: green;
+}
+.a12{
+}
+.a13{
+    background-color: green;
+}
+.a14{
+}
