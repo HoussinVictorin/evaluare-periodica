@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     height: 220vh;
@@ -6,7 +6,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+    vertical-align: middle;
 }
+.first{
+    vertical-align: middle;
+}
+
 .last{
     height: 60px;
 }
@@ -62,7 +67,7 @@ body .all .left .second .prof .butprof{
     color: white;
     height: 40px;
     width: 130px;
-    background-color: green;
+    background-color: #25975A;;
 }
 body .all .left .second .prof  .butprof:hover{
     background-color: white;
@@ -76,7 +81,7 @@ body .all .left .second .aule .butaule{
     color: white;
     height: 40px;
     width: 100px;
-    background-color: green;
+    background-color: #25975A;;
 }
 .left h3{
     color: white;
@@ -103,6 +108,8 @@ body .all .left .second .aule .butaule{
 .figneax2 input{
     margin-top: 5px;
     width: 20px;
+    background-color: green;
+
 }
 .figneax2::after{
     background-color: green;
@@ -120,7 +127,8 @@ select{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
     border: 10px;
 }
 .info{
@@ -139,7 +147,7 @@ li{
     color: white;
 }
 .desc{
-    background-color: green;
+    background-color: #25975A;;
     text-align:center;
     display: flex;
     border: 2px;
@@ -163,296 +171,435 @@ li{
     color: rgb(77, 175, 85);
 }
 .c1{
-    background-color: green;
-    border: 2px;
-    border-color: white;
-    border-color: white;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
 }
 .c2{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c3{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c4{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c5{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c6{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c7{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c8{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c9{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c10{
     background-color: rgb(158, 109, 19);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
+}
+    
+.figneax2{
+    height: 50px;
+}
+.check{
+    height: 50px;
+}
+INPUT{
+    height: 46PX;
+}
+select{
+    height: 50px;
 }
 .c11{
-    background-color: rgb(126, 216, 126);
+    background-color: rgb(118, 189, 73);"
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c12{
     background-color: rgb(0, 51, 128);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c13{
     background-color: rgb(23, 95, 163);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c14{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c15{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c16{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c17{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c18{
     background-color: rgb(207, 207, 161);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c19{
     background-color: rgb(0, 51, 128);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c20{
     background-color: rgb(241, 168, 190);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c21{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c22{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c23{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c24{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c25{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    
+
 }
 .c26{
     background-color: rgb(158, 109, 19);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c27{
     background-color: rgb(158, 109, 19);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c28{
-    background-color: rgb(126, 216, 126);
+    background-color: rgb(118, 189, 73);"
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c29{
     background-color: rgb(147, 229, 225);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c30{
     background-color: rgb(207, 207, 161);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c31{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c32{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c33{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
+
 }
 .c34{
     background-color: rgb(224, 222, 87);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c35{
     background-color: rgb(224, 222, 87);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c36{
-    background-color: rgb(126, 216, 126);
+    background-color: rgb(118, 189, 73);"
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c37{
-    background-color: rgb(126, 216, 126);
+    background-color: rgb(118, 189, 73);"
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c38{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c39{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c40{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c41{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c42{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c43{
-    background-color: rgb(126, 216, 126);
+    background-color: rgb(118, 189, 73);"
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c44{
     background-color: rgb(147, 229, 225);
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c45{
-     background-color: rgb(126, 216, 126);
+     background-color: rgb(118, 189, 73);"
    border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c46{
-    background-color: rgb(126, 216, 126);
+    background-color: rgb(118, 189, 73);"
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c47{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c48{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c49{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c50{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c51{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c52{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c53{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c54{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c55{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c56{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c57{
-    background-color: green;
+    background-color: #25975A;;
     border: 2px;
     border-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .c58{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c59{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c60{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c61{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c62{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c63{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .c64{
     border: 2px;
     border-color: white;
+    border: 1px solid grey
+
 }
 .altgrid{
     text-align: center;
@@ -466,39 +613,67 @@ h4{
 }
 .altgrid h3{
     color: white;
+    border: none;
 }
 .a1{
-    background-color: green;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .a2{
+    border: 1px solid grey
 }
 .a3{
-    background-color: green;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .a4{
+    border: 1px solid grey
+
 }
 .a5{
-    background-color: green;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .a6{
+    border: 1px solid grey
+
 }
 .a7{
-    background-color: green;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .a8{
+    border: 1px solid grey
+
 }
 .a9{
-    background-color: green;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .a10{
+    border: 1px solid grey
+
 }
 .a11{
-    background-color: green;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .a12{
+    border: 1px solid grey
+
 }
 .a13{
-    background-color: green;
+    background-color: #25975A;;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .a14{
+    border: 1px solid grey
+
 }
